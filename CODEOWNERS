@@ -1,0 +1,28 @@
+# This is a basic CODEOWNERS file example
+
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, @global-owner1 and @global-owner2
+# will be requested for review when someone opens a pull request.
+*       @dataGriff
+
+# You can specify individual files or directories with a pattern.
+# In this example, @js-owner will be requested for review when changes affect any JS files.
+*.js    @dataGriff
+
+# You can also specify directories. All .py files in the 'scripts' directory
+# will be owned by @python-owner.
+/scripts/ *.py @dataGriff
+
+# To define ownership for a directory and all its subdirectories,
+# use a pattern like this. In this case, @docs-team will be
+# requested for review for any changes in the 'docs/' directory or any of its subdirectories.
+/docs/ @dataGriff
+
+# In case you want to define a code owner for a specific directory (but not its subdirectories),
+# you can leave off the trailing slash. Here, @root-owner is the code owner of files in the root directory.
+/root-directory @dataGriff
+
+# Note: The last matching pattern has the most precedence.
+# If a file matches multiple patterns, the last (most specific) match will be used.

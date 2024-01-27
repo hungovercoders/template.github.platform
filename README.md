@@ -8,6 +8,8 @@ This repository is for experimentation and examples of how to use GitHub feature
   - [Work Item Template Examples](#work-item-template-examples)
   - [Automation](#automation)
   - [Inner Source](#inner-source)
+  - [Security](#security)
+  - [Codeowners](#codeowners)
 
 ## README Examples
 
@@ -30,3 +32,7 @@ This repository is for experimentation and examples of how to use GitHub feature
 ## Inner Source
 
 - [Github Inner Source Guide](https://githubtraining.github.io/innersource-theory/#/measuring_success)
+
+## Security
+
+## Codeowners
