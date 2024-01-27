@@ -35,6 +35,8 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Security
 
+- [Security Policy](https://github.com/hungovercoders/template.github.platform/security/policy) - This is maintanied by SECURITY.md file in the root of the repository. It is a good idea to have a security policy in place to ensure that any security issues are reported to the correct people.
+
 ## Codeowners
 
 - [Hungovercoders Codeowners](.github/CODEOWNERS) - This is a simple example of how to use codeowners to automatically assign reviewers to pull requests. It also shows how to use a wildcard to assign a team to a folder.
