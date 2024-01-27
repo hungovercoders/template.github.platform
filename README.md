@@ -48,3 +48,4 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ### Automation
 
+- [Security Analysis](https://github.com/hungovercoders/template.github.platform/settings/security_analysis) - Consider enabling and automating dependabot alerts and security updates. This will ensure that any security issues are automatically raised as issues and pull requests.
