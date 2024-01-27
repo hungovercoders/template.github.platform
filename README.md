@@ -4,20 +4,18 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 - [template.github.platform](#templategithubplatform)
   - [README Examples](#readme-examples)
-  - [.gitgnore Examples](#gitgnore-examples)
   - [Work Item Template Examples](#work-item-template-examples)
   - [Automation](#automation)
   - [Inner Source](#inner-source)
   - [Security](#security)
-  - [Codeowners](#codeowners)
+    - [.gitgnore Examples](#gitgnore-examples)
+    - [Policy](#policy)
+    - [Codeowners](#codeowners)
+    - [Automation](#automation-1)
 
 ## README Examples
 
 - [Awesome Readme](https://github.com/matiassingers/awesome-readme)
-
-## .gitgnore Examples
-
-- [Git Ignore Examples](https://github.com/github/gitignore)
 
 ## Work Item Template Examples
 
@@ -35,9 +33,18 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Security
 
+### .gitgnore Examples
+
+- [Git Ignore Examples](https://github.com/github/gitignore)
+
+### Policy
+
 - [Security Policy](https://github.com/hungovercoders/template.github.platform/security/policy) - This is maintanied by SECURITY.md file in the root of the repository. It is a good idea to have a security policy in place to ensure that any security issues are reported to the correct people.
 
-## Codeowners
+### Codeowners
 
 - [Hungovercoders Codeowners](.github/CODEOWNERS) - This is a simple example of how to use codeowners to automatically assign reviewers to pull requests. It also shows how to use a wildcard to assign a team to a folder.
 - [About Codeowners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+
+### Automation
+
