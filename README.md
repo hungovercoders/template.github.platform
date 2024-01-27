@@ -3,15 +3,15 @@
 This repository is for experimentation and examples of how to use GitHub features.
 
 - [template.github.platform](#templategithubplatform)
-  - [README](#readme)
-  - [Work Item Templates](#work-item-templates)
+  - [README Examples](#readme-examples)
+  - [Work Item Template Examples](#work-item-template-examples)
   - [Automation](#automation)
 
-## README
+## README Examples
 
 - [Awesome Readme](https://github.com/matiassingers/awesome-readme)
 
-## Work Item Templates
+## Work Item Template Examples
 
 - [Awesome Github Templates](https://github.com/devspace/awesome-github-templates)
 
