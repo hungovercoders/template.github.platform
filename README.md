@@ -13,6 +13,10 @@ This repository is for experimentation and examples of how to use GitHub feature
     - [Codeowners](#codeowners)
     - [Automation](#automation-1)
 
+## Repo Insights
+
+- [Insights](https://github.com/hungovercoders/template.github.platform/pulse) - Remember to use the insights tab and look through your repo to ensure you meet community standards and keep an eye on dependencies among other things.
+
 ## README Examples
 
 - [Awesome Readme](https://github.com/matiassingers/awesome-readme)
