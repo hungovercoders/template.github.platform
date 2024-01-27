@@ -36,3 +36,6 @@ This repository is for experimentation and examples of how to use GitHub feature
 ## Security
 
 ## Codeowners
+
+- [Hungovercoders Codeowners](.github/CODEOWNERS) - This is a simple example of how to use codeowners to automatically assign reviewers to pull requests. It also shows how to use a wildcard to assign a team to a folder.
+- [About Codeowners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
