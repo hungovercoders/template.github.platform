@@ -13,7 +13,7 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Work Item Template Examples
 
-- [Hungovercoder Templates](.githhub/ISSUE_TEMPLATE)
+- [Hungovercoder Templates](.githhub/ISSUE_TEMPLATE) - Currently it appears only the yaml base templates allow for automatic linking projects to the issue. This is why have the [add to project](.github/workflows/add-to-project.yml) to cover non-template raised issues (such as mobile app).
 - [Awesome Github Templates](https://github.com/devspace/awesome-github-templates)
 
 ## Automation
