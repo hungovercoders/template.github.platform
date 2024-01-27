@@ -1,0 +1,11 @@
+tasks:
+  - name: Versions
+    command: |
+      sh ./tools/environment/versions.sh
+  - name: Variables
+    command: |
+      sh ./tools/environment/variables.sh
+
+vscode:
+  extensions:
+    - formulahendry.code-runner
