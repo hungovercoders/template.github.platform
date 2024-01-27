@@ -4,6 +4,7 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 - [template.github.platform](#templategithubplatform)
   - [README Examples](#readme-examples)
+  - [.gitgnore Examples](#gitgnore-examples)
   - [Work Item Template Examples](#work-item-template-examples)
   - [Automation](#automation)
   - [Inner Source](#inner-source)
@@ -11,6 +12,10 @@ This repository is for experimentation and examples of how to use GitHub feature
 ## README Examples
 
 - [Awesome Readme](https://github.com/matiassingers/awesome-readme)
+
+## .gitgnore Examples
+
+- [Git Ignore Examples](https://github.com/github/gitignore)
 
 ## Work Item Template Examples
 
