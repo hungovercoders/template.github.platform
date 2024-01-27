@@ -5,7 +5,7 @@
 # These owners will be the default owners for everything in the repo.
 # Unless a later match takes precedence, @global-owner1 and @global-owner2
 # will be requested for review when someone opens a pull request.
-*       @dataGriff
+*       @hungovercoders/hungovercoders
 
 # You can specify individual files or directories with a pattern.
 # In this example, @js-owner will be requested for review when changes affect any JS files.
