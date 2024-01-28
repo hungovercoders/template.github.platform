@@ -53,3 +53,11 @@ This repository is for experimentation and examples of how to use GitHub feature
 ### Automation
 
 - [Security Analysis](https://github.com/hungovercoders/template.github.platform/settings/security_analysis) - Consider enabling and automating dependabot alerts and security updates. This will ensure that any security issues are automatically raised as issues and pull requests.
+
+## Discussions
+
+- [Discussions](https://github.com/hungovercoders/template.github.platform/wiki) - Remember the discussions tab is a great place to have conversations and gather feedback on the repo that can link to future issues etc.
+
+## Wiki
+
+- [Wiki](https://github.com/hungovercoders/template.github.platform/wiki) - Remember the wiki tab might be a better place for deep documentation so that you can keep the README more digestible!
