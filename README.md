@@ -28,8 +28,15 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Automation
 
+- [Actions](https://github.com/hungovercoders/template.github.platform/actions) - All automation from this repo can be found under its actions tab.
 - [Hello World](.github/workflows/hello-world.yml) - This is the simplest github action workflow that allows for a base understanding of how they work.
 - [Add to Project](.github/workflows/add-to-project.yml) - This workflow adds a new issue to a project board when a new issue is created. It leverages a user PAT token embedded as a github organisation secret that has issue and project write permissions only. It also references an organisation wide github variable to reference the project.
+
+## Developer Environments
+
+- [Github Dev](https://github.dev/hungovercoders/template.github.platform) - By changing any github repo URL to https://github.**dev**/{organisation}/{repo} instead of https://github.**com**/{organisation}/{repo} you get a light browser IDE to make text chamges easy. You wouldn't use this for real development as it can't run code etc but it is a quick way of updating markdown for example.
+- [Gitpod](https://gitpod.io)
+- [Github Codespaces](https://github.com/features/codespaces)
 
 ## Discussions
 
@@ -38,6 +45,10 @@ This repository is for experimentation and examples of how to use GitHub feature
 ## Wiki
 
 - [Wiki](https://github.com/hungovercoders/template.github.platform/wiki) - Remember the wiki tab might be a better place for deep documentation so that you can keep the README more digestible!
+
+## Projects
+
+- [Projects](https://github.com/hungovercoders/template.github.platform/projects?query=is%3Aopen) - Don't forget to utilise projects for work management and link your codebase to one to make it easily accessible. This doesn't mean every issue magically appears there though currently and you'll need to setup some automation either via work item templates, automation in the project itself, or cover yourself with the [Add to Project](.github/workflows/add-to-project.yml) workflow in this repo.
 
 - ## Inner Source
 
