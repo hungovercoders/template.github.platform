@@ -72,5 +72,5 @@ unordered or ordered list supported)
 
 ### Slash Commands
 
-### emjois!
+### Emojis!
 
