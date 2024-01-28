@@ -1,8 +1,8 @@
-# template.github.platform
+# template.github.platform :beers:
 
 This repository is for experimentation and examples of how to use GitHub features.
 
-- [template.github.platform](#templategithubplatform)
+- [template.github.platform :beers:](#templategithubplatform-beers)
   - [Repo Insights](#repo-insights)
   - [README Examples](#readme-examples)
   - [Work Item Template Examples](#work-item-template-examples)
