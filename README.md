@@ -44,7 +44,7 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Developer Environments
 
-- [Github Dev](https://github.dev/hungovercoders/template.github.platform) - By changing any github repo URL to \https://github.\**dev**\*/{organisation}/{repo}\ instead of https://github.**com**/{organisation}/{repo} you get a light browser IDE to make text chamges easy. You wouldn't use this for real development as it can't run code etc but it is a quick way of updating markdown for example.
+- [Github Dev](https://github.dev/hungovercoders/template.github.platform) - By changing any github repo URL to \https://github.\**dev**\/{organisation}/{repo}\ instead of https://github.**com**/{organisation}/{repo} you get a light browser IDE to make text chamges easy. You wouldn't use this for real development as it can't run code etc but it is a quick way of updating markdown for example.
 - [Gitpod](https://gitpod.io)
 - [Github Codespaces](https://github.com/features/codespaces)
 
