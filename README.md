@@ -3,10 +3,15 @@
 This repository is for experimentation and examples of how to use GitHub features.
 
 - [template.github.platform](#templategithubplatform)
+  - [Repo Insights](#repo-insights)
   - [README Examples](#readme-examples)
   - [Work Item Template Examples](#work-item-template-examples)
+  - [Markdown](#markdown)
   - [Automation](#automation)
-  - [Inner Source](#inner-source)
+  - [Developer Environments](#developer-environments)
+  - [Discussions](#discussions)
+  - [Wiki](#wiki)
+  - [Projects](#projects)
   - [Security](#security)
     - [.gitgnore Examples](#gitgnore-examples)
     - [Policy](#policy)
@@ -28,7 +33,8 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Markdown
 
-- []()
+- [Hungovercoders Cheatsheet](/MARKDOWN.md) - This is a simple cheatsheet for markdown.
+- [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
 ## Automation
 

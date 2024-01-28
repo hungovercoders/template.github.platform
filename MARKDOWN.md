@@ -2,11 +2,25 @@
 
 ## Headers
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+```markdown
+# This is an \<h1> tag
+## This is an \<h2> tag
+###### This is an \<h6> tag
+```
+
+# This is an \<h1> tag
+## This is an \<h2> tag
+###### This is an \<h6> tag
 
 ## Emphasis
+
+```markdown
+*This text will be italic*
+_This will also be italic_
+**This text will be bold**
+__This will also be bold__
+*You **can** combine them*
+```
 
 *This text will be italic*
 _This will also be italic_
@@ -18,12 +32,27 @@ __This will also be bold__
 
 ### Unordered
 
+```markdown
+* Item 1
+* Item 2
+ * Item 2a
+ * Item 2b
+```
+
 * Item 1
 * Item 2
  * Item 2a
  * Item 2b
 
 ### Ordered
+
+```markdown
+1. Item 1
+2. Item 2
+3. Item 3
+ * Item 3a
+ * Item 3b
+```
 
 1. Item 1
 2. Item 2
@@ -35,13 +64,27 @@ __This will also be bold__
 
 ### URLs
 
+```markdown
+[Hungovercoders](https://www.hungovercoders.com)
+```
+
 [Hungovercoders](https://www.hungovercoders.com)
 
 ### Images
 
+```markdown
+![Hungovercoders Logo](https://www.hungovercoders.com/assets/logo3.ico)
+```
+
 ![Hungovercoders Logo](https://www.hungovercoders.com/assets/logo3.ico)
 
 ## Block Quotes
+
+```markdown
+As Ernesy Hemmingway said:
+> There is nothing noble in being superior to your fellow man;
+> true nobility is being superior to your former self
+```
 
 As Ernesy Hemmingway said:
 > There is nothing noble in being superior to your fellow man;
@@ -49,9 +92,23 @@ As Ernesy Hemmingway said:
 
 ## Escaping Characters
 
+```markdown
+\*literal asterisks\*
+```
+
 \*literal asterisks\*
 
 ## Task List
+
+```markdown
+- [x] @mentions, #refs, [links](),
+**formatting**, and <del>tags</del>
+supported
+- [x] list syntax required (any
+unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
 
 - [x] @mentions, #refs, [links](),
 **formatting**, and <del>tags</del>
@@ -63,7 +120,15 @@ unordered or ordered list supported)
 
 ## Github Markdown
 
-### Issue Mentions
+### Issue & Commit Mentions
+
+```markdown
+- [#1](https://github.com/hungovercoders/template.github.platform/issues/1)
+- [75ccac2](https://github.com/hungovercoders/template.github.platform/commit/75ccac2)
+```
+
+- [#1](https://github.com/hungovercoders/template.github.platform/issues/1)
+- [75ccac2](https://github.com/hungovercoders/template.github.platform/commit/75ccac2)
 
 ### Team and User Mentions
 
@@ -72,5 +137,51 @@ unordered or ordered list supported)
 
 ### Slash Commands
 
+When in issues and pull requests you can use the following slash commands to perform tasks.
+
+- /code
+- /details
+- /saved-replies
+- /table
+- /tasklist
+- /template
+
 ### Emojis!
+
+- [Github Emojis](https://gist.github.com/rxaviers/7360908)
+
+```markdown
+| :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
+|---|---|---|
+| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
+| :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
+```
+
+e.g.
+
+People
+
+| :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
+|---|---|---|
+| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
+| :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
+| :kissing_closed_eyes: `:kissing_closed_eyes:` | :flushed: `:flushed:` | :relieved: `:relieved:` |
+| :satisfied: `:satisfied:` | :grin: `:grin:` | :wink: `:wink:` |
+| :stuck_out_tongue_winking_eye: `:stuck_out_tongue_winking_eye:` | :stuck_out_tongue_closed_eyes: `:stuck_out_tongue_closed_eyes:` | :grinning: `:grinning:` |
+| :kissing: `:kissing:` | :kissing_smiling_eyes: `:kissing_smiling_eyes:` | :stuck_out_tongue: `:stuck_out_tongue:` |
+| :sleeping: `:sleeping:` | :worried: `:worried:` | :frowning: `:frowning:` |
+| :anguished: `:anguished:` | :open_mouth: `:open_mouth:` | :grimacing: `:grimacing:` |
+| :confused: `:confused:` | :hushed: `:hushed:` | :expressionless: `:expressionless:` |
+| :unamused: `:unamused:` | :sweat_smile: `:sweat_smile:` | :sweat: `:sweat:` |
+| :disappointed_relieved: `:disappointed_relieved:` | :weary: `:weary:` | :pensive: `:pensive:` |
+| :disappointed: `:disappointed:` | :confounded: `:confounded:` | :fearful: `:fearful:` |
+| :cold_sweat: `:cold_sweat:` | :persevere: `:persevere:` | :cry: `:cry:` |
+| :sob: `:sob:` | :joy: `:joy:` | :astonished: `:astonished:` |
+| :scream: `:scream:` | :neckbeard: `:neckbeard:` | :tired_face: `:tired_face:` |
+| :angry: `:angry:` | :rage: `:rage:` | :triumph: `:triumph:` |
+| :sleepy: `:sleepy:` | :yum: `:yum:` | :mask: `:mask:` |
+| :sunglasses: `:sunglasses:` | :dizzy_face: `:dizzy_face:` | :imp: `:imp:` |
+| :smiling_imp: `:smiling_imp:` | :neutral_face: `:neutral_face:` | :no_mouth: `:no_mouth:` |
+| :innocent: `:innocent:` | :alien: `:alien:` | :yellow_heart: `:yellow_heart:` |
+
 
