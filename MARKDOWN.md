@@ -102,12 +102,12 @@ __This will also be bold__
 ## Block Quotes
 
 ```markdown
-As Ernesy Hemmingway said:
+As Ernest Hemmingway said:
 > There is nothing noble in being superior to your fellow man;
 > true nobility is being superior to your former self
 ```
 
-As Ernesy Hemmingway said:
+As Ernest Hemmingway said:
 > There is nothing noble in being superior to your fellow man;
 > true nobility is being superior to your former self
 
