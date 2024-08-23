@@ -3,6 +3,7 @@
 This repository is for experimentation and examples of how to use GitHub features.
 
 - [template.github.platform :beers:](#templategithubplatform-beers)
+  - [Github Status](#github-status)
   - [Repo Insights](#repo-insights)
   - [README Examples](#readme-examples)
   - [Work Item Template Examples](#work-item-template-examples)
@@ -17,7 +18,10 @@ This repository is for experimentation and examples of how to use GitHub feature
     - [Policy](#policy)
     - [Codeowners](#codeowners)
     - [Automation](#automation-1)
-  - [Projects](#projects)
+
+## Github Status
+
+- [Github Status](https://www.githubstatus.com/) - Remember to check the status of github before you start working on anything. This will help you understand if any issues you are experiencing are due to github or your own setup.
 
 ## Repo Insights
 
@@ -39,7 +43,7 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Automation
 
-- [Actions](https://github.com/hungovercoders/template.github.platform/actions) - All automation from this repo can be found under its actions tab.
+- [Actions](https://github.com/hungovercoders/template.github.platform/actions) - All automation from this repo can be found under its actions tab. There is a dedicated [README](.github/workflows/README.md) here too which was done for the github actions cert.
 - [Hello World](.github/workflows/hello-world.yml) - This is the simplest github action workflow that allows for a base understanding of how they work.
 - [Add to Project](.github/workflows/add-to-project.yml) - This workflow adds a new issue to a project board when a new issue is created. It leverages a user PAT token embedded as a github organisation secret that has issue and project write permissions only. It also references an organisation wide github variable to reference the project.
 - [Github Scripts - Octokit JS](https://octokit.github.io/rest.js) - Can leverage github script in actions e.g. [github-script.yaml](.githhub/workflows/github-script.yaml)

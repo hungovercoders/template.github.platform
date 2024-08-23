@@ -16,7 +16,7 @@ permissions:
   contents: read
 on: [push]
 jobs:
-    build:
+    job1:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -68,4 +68,26 @@ on: workflow_dispatch
 on:
   webhook:
     url: www.example.com
+```
+
+## Conditions
+
+```yaml
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Hello World
+        run: echo "Hello World"
+    needs: [job1]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Hello World
+        run: echo "Hello World"
 ```
