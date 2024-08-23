@@ -2,13 +2,13 @@
 
 ## Links
 
-* [Tim Warner Actions Course and Links](https://github.com/timothywarner/actions-cert-prep)
-* [Github Actions Marketplace](https://github.com/marketplace?type=actions)
+- [Tim Warner Actions Course and Links](https://github.com/timothywarner/actions-cert-prep)
+- [Github Actions Marketplace](https://github.com/marketplace?type=actions)
 
 ## Action Structure
 
-* Workflow > Jobs > Steps > Action
-* [Detailed Hello World](hello-world.yml)
+- Workflow > Jobs > Steps > Action
+- [Detailed Hello World](hello-world.yml)
 
 ```yaml
 name: hello-world
@@ -33,32 +33,30 @@ jobs:
 
 ```yaml
 on:
-    push:
-        branches:
-            - main
-            - develop
+  push:
+    branches:
+      - main
+      - develop
 ```
 
 ### Schedule
 
 ```yaml
 on:
-    schedule:
-        - cron: '0 0 * * * *'
-        
+  schedule:
+    - cron: "0 0 * * * *"
 ```
 
 ### Manual
 
 ```yaml
-on:
-    workflow_dispatch
+on: workflow_dispatch
 ```
 
 ### Webhook
 
 ```yaml
 on:
-    webhook:
-        url: www.example.com
+  webhook:
+    url: www.example.com
 ```
