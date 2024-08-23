@@ -1,5 +1,6 @@
-name: Add Issues to Project
-
+name: add-issue-to-project
+permissions:
+  contents: read
 on:
   issues:
     types:

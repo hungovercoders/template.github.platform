@@ -12,6 +12,8 @@
 
 ```yaml
 name: hello-world
+permissions:
+  contents: read
 on: [push]
 jobs:
     build:
@@ -28,10 +30,6 @@ jobs:
 ## Triggers
 
 ### Push
-
-### Triggers
-
-#### Push
 
 ```yaml
 on:

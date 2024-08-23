@@ -1,4 +1,4 @@
-name: Learning GitHub Script
+name: learn-github-script
 on:
   issues:
     types: [opened]

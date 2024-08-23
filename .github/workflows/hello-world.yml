@@ -1,16 +1,19 @@
-name: Hello World
+name: hello-world
+
+permissions:
+  contents: read
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - .github/workflows/hello-world.yml
   pull_request:
     paths:
       - .github/workflows/hello-world.yml
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
