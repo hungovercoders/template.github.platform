@@ -3,7 +3,7 @@ name: PostgreSQL Service Example
 permissions:
   contents: read
 
-on: push
+on: [workflow_dispatch]
 
 jobs:
   # Label of the runner job
