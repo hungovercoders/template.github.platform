@@ -6,7 +6,7 @@
 - [Github Actions Marketplace](https://github.com/marketplace?type=actions)
 - [Github Docs Actions](https://docs.github.com/en/actions)
 - [Github Docs Actions Contexts](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs#github-context)
-- [Containerised Services](https://docs.github.com/en/actions/use-cases-and-examples/using-containerized-services) - See [Example](containerised-services.yml).
+- [Containerised Services](https://docs.github.com/en/actions/use-cases-and-examples/using-containerized-services) - See [Example](containerised-services.yml). I think this is better handled with docker compose so can be done locally then too.
 
 ## Action Structure
 
