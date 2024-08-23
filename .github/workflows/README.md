@@ -29,6 +29,10 @@ jobs:
 
 ### Push
 
+### Triggers
+
+#### Push
+
 ```yaml
 on:
     push:
