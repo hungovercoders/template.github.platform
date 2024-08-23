@@ -18,7 +18,7 @@
     - [Issue \& Commit Mentions](#issue--commit-mentions)
     - [Team and User Mentions](#team-and-user-mentions)
     - [Slash Commands](#slash-commands)
-    - [Emojis!](#emojis)
+    - [Emojis](#emojis)
 
 ## Headers
 
@@ -129,7 +129,7 @@ As Ernest Hemmingway said:
 ## Task List
 
 ```markdown
-- [x] @mentions, #refs, [links](),
+- [x] @mentions, #refs, [links](https://www.hungovercoders.com/),
       **formatting**, and <del>tags</del>
       supported
 - [x] list syntax required (any
@@ -138,7 +138,7 @@ As Ernest Hemmingway said:
 - [ ] this is an incomplete item
 ```
 
-- [x] @mentions, #refs, [links](),
+- [x] @mentions, #refs, [links](https://www.hungovercoders.com/),
       **formatting**, and <del>tags</del>
       supported
 - [x] list syntax required (any
@@ -174,7 +174,7 @@ When in issues and pull requests you can use the following slash commands to per
 - /tasklist
 - /template
 
-### Emojis!
+### Emojis
 
 - [Github Emojis](https://gist.github.com/rxaviers/7360908)
 

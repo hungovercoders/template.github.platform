@@ -1,7 +1,7 @@
 name: Issue
 description: Create an Issue
 title: Issue
-labels: [value, cost,quality,happy]
+labels: [value, cost, quality, happy]
 projects: [hungovercoders/5]
 assignees:
   - self
