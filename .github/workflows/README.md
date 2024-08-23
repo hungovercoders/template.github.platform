@@ -39,6 +39,15 @@ on:
       - develop
 ```
 
+### Pull Request
+
+```yaml
+on:
+  pull_request:
+    branches:
+      - main
+```
+
 ### Schedule
 
 ```yaml
