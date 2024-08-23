@@ -4,6 +4,8 @@
 
 - [Tim Warner Actions Course and Links](https://github.com/timothywarner/actions-cert-prep)
 - [Github Actions Marketplace](https://github.com/marketplace?type=actions)
+- [Github Docs Actions](https://docs.github.com/en/actions)
+- [Github Docs Actions Contexts](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs#github-context)
 
 ## Action Structure
 

@@ -5,6 +5,9 @@ tasks:
   - name: Variables
     command: |
       sh ./tools/environment/variables.sh
+  - name: Trunk
+    command: |
+      sh curl https://get.trunk.io -fsSL | bash
 
 vscode:
   extensions:
