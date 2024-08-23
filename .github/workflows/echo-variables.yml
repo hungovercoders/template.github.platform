@@ -11,12 +11,12 @@ jobs:
     steps:
       - name: Echo the value of the GITHUB_REPOSITORY environment variable
         run: echo $GITHUB_REPOSITORY
+      - name: Get Ref from Github context
+        run: echo ${{ github.ref }}
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
-      - name: Get Ref from Github context
-        run: echo ${{ github.ref }}
       - name: Dump job context
         env:
           JOB_CONTEXT: ${{ toJson(job) }}
