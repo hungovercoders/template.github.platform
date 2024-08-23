@@ -1,6 +1,7 @@
 name: learn-github-script
 permissions:
   contents: read
+  issues: write
 on:
   issues:
     types: [opened]
