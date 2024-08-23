@@ -1,0 +1,13 @@
+name: echo-variables
+
+permissions:
+  contents: read
+
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the value of the GITHUB_REPOSITORY environment variable
+        run: echo $GITHUB_REPOSITORY
