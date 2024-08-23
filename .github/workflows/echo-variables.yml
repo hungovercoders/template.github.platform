@@ -12,4 +12,4 @@ jobs:
       - name: Echo the value of the GITHUB_REPOSITORY environment variable
         run: echo $GITHUB_REPOSITORY
       - name: Echo the value of github ref branch
-        run: echo github.ref
+        run: echo {{ github.ref }}
