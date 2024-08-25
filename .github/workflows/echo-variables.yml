@@ -9,6 +9,8 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
+      - name: The event that triggered this action
+        run: echo ${{ github.event_name }}
       - name: Echo the value of the GITHUB_REPOSITORY environment variable
         run: echo $GITHUB_REPOSITORY
       - name: Get Ref from Github context
