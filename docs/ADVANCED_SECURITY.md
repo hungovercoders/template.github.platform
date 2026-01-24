@@ -1,5 +1,7 @@
 # Github Advanced Security 
 
+- See example exercise repo here for [dependencies](https://github.com/dataGriff/skills-secure-repository-supply-chain).
+
 ## Dependencies
 
 ### Dependendy Graph
@@ -22,6 +24,10 @@ Machine readable inventory of projecct dependencies and associated information (
 
 Exportable in [SPDX](https://spdx.github.io/spdx-spec/v2.3/) format.
 
+### Dependency Review
+
+Github tool that helps you understand dependency changes in a pull request. It highlights new or updated dependencies and any associated security vulnerabilities. Proactive approach to managing dependencies whereas dependabot is reactive.
+
 ### Dependabot
 
 Github tool that helps you keep up to date with your dependencies by automatically checking for updates and security vulnerabilities. Comprised of dependabot alerts, security updates and version updates.
@@ -36,6 +42,100 @@ Dependabot alerts for this repo can be found at [https://github.com/hungovercode
 
 You can configure notifcations for dependabot alerts in your organisation [notification settings](https://github.com/settings/notifications#vulnerability-alerts-heading).
 
+#### Data Driven Decision and Resolution
+
+- Review the alert > Evaludate the Risk > Decide Action Based no Data > Document the Decision > Immediate Remediation > Close the Alert > Monitor Alerts.
+
+### Dependabot Security Updates
+
+When a vulnerability is found in one of your dependencies, dependabot can automatically create a pull request to update the dependency to a secure version. This helps you quickly remediate vulnerabilities without having to manually track and update dependencies.  
+
+### Dependabot Version Updates
+
+Dependabot can also help you keep your dependencies up to date by automatically checking for new versions and creating pull requests to update them. This helps you stay current with the latest features and bug fixes in your dependencies.
+
+### Example Dependabot Configuration File
+
+```yaml
+# Basic dependabot.yml file with
+# configuration for two package managers
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `lock` files in the `root` directory
+    directory: "/"
+    # Check the npm registry for updates every day (weekdays)
+    schedule:
+      interval: "daily"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
+
+  # Enable version updates for Docker
+  - package-ecosystem: "docker"
+    # Look for a `Dockerfile` in the `root` directory
+    directory: "/"
+    # Check for updates once a week
+    schedule:
+      interval: "weekly"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
+```
+
+### Notifications
+
+By default, users receive notifications in the following manner:
+
+- By email: An email is sent when Dependabot is enabled for a repository, when a new manifest file is committed to the repository, and when a new vulnerability with a critical or high severity is found (Email option).
+- In the user interface: A warning is shown in your repository's file and code views if there are any vulnerable dependencies.
+- On the command line: Warnings are displayed as callbacks when you push to repositories with any insecure dependencies (CLI option).
+- In your inbox: As web notifications. A web notification is sent when Dependabot is enabled for a repository, when a new manifest file is committed to the repository, and when a new vulnerability with a critical or high severity is found (On GitHub option).
+- On GitHub Mobile: As web notifications.
+
+### Graph QL Queries
+
+- Query to get dependabot alerts for a repository
+
+```graphql
+{
+  repository(owner: "hungovercoders", name: "template.github.platform") {
+    vulnerabilityAlerts(first: 10) {
+      nodes {
+        createdAt
+        dismissedAt
+        securityVulnerability {
+          package {
+            name
+          }
+          advisory {
+            summary
+            severity
+            references {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 ### Dependency Review
 
-Github tool that helps you understand dependency changes in a pull request. It highlights new or updated dependencies and any associated security vulnerabilities. Proactive approach to managing dependencies whereas dependabot is reactive.
+Allows you to shift left and review dependency changes in pull requests before merging them. It highlights new or updated dependencies and any associated security vulnerabilities.
+
+You can setup one of these using a github action in your repository. Easiest way is to go to github actions and select new workflow and type "dependency review". This will create a workflow file in your .github/workflows/dependency-review.yml file. You can configure this to better suit your needs.
+
+You can setup a number of [dependency review confiuration options](https://github.com/marketplace/actions/dependency-review#configuration-options?azure-portal=true).
+
+You can enforce dependency review in your repository by setting up branch protection rules. This will require that all pull requests pass the dependency review check before they can be merged.
+
+You can check dependency review results in the "Checks" tab of a pull request. Any new or updated dependencies will be listed, along with any associated security vulnerabilities.
