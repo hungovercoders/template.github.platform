@@ -38,7 +38,7 @@ This repository is for experimentation and examples of how to use GitHub feature
 
 ## Markdown
 
-- [Hungovercoders Cheatsheet](/MARKDOWN.md) - This is a simple cheatsheet for markdown.
+- [Cheatsheet](/MARKDOWN.md) - This is a simple cheatsheet for markdown.
 - [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
 ## Automation
@@ -89,3 +89,5 @@ This repository is for experimentation and examples of how to use GitHub feature
 ### Automation
 
 - [Security Analysis](https://github.com/hungovercoders/template.github.platform/settings/security_analysis) - Consider enabling and automating dependabot alerts and security updates. This will ensure that any security issues are automatically raised as issues and pull requests.
+
+For more detailed information on security see [ADVANCED_SECURITY.md](docs/ADVANCED_SECURITY.md)
